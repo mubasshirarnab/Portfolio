@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mubasshir Ahmed Arnab - Developer • Designer • Innovator">
+    <title>Mubasshir Ahmed Arnab | Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo" id="logo">
+                <span class="logo-text">MA</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting fade-in">Hello, I'm</p>
+                <h1 class="hero-name typewriter">Mubasshir Ahmed Arnab</h1>
+                <p class="hero-tagline fade-in-delay">Computer Science Student • Problem Solver • AI Enthusiast</p>
+                <p class="hero-description fade-in-delay-2">
+                    Driven Computer Science undergraduate with a strong passion for coding and a commitment to helping others learn. 
+                    I excel in breaking down complex problems into understandable parts and building innovative solutions.
+                </p>
+                <div class="hero-buttons fade-in-delay-3">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    <button class="btn btn-download" id="download-cv-btn">
+                        <i class="fas fa-download"></i> Download CV
+                    </button>
+                </div>
+                <div class="social-links fade-in-delay-4">
+                    <a href="https://github.com/mubasshirarnab" target="_blank" aria-label="GitHub" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mubasshir-ahmed-arnab-636228247/" target="_blank" aria-label="LinkedIn" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:marnab222263@bscse.uiu.ac.bd" aria-label="Email" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="about-content">
+                <div class="about-image reveal">
+                    <div class="image-wrapper">
+                        <img src="assets/img/profile_photo.jpeg" alt="Mubasshir Ahmed Arnab" class="profile-img">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+                <div class="about-text reveal">
+                    <p class="about-bio">
+                        I am a driven Computer Science undergraduate with a strong passion for coding and a commitment to helping others learn. 
+                        I excel in breaking down complex problems into understandable parts. My approachable nature and effective communication 
+                        skills enable me to enhance the learning experience for peers.
+                    </p>
+                    <p class="about-bio">
+                        Currently pursuing my BSc. in Computer Science and Engineering at United International University. 
+                        I actively solve problems on LeetCode and Codeforces, and I'm passionate about AI, Machine Learning, and building 
+                        innovative solutions that make a real-world impact.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-brain"></i>
+                            <span>Critical Thinking</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-puzzle-piece"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <span>Team Leadership</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-comments"></i>
+                            <span>Effective Communication</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="education-background">
+            <div class="education-orb orb-edu-1"></div>
+            <div class="education-orb orb-edu-2"></div>
+            <div class="education-orb orb-edu-3"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title reveal">Education</h2>
+            <div class="education-grid">
+                <div class="education-card edu-card-1">
+                    <div class="education-card-inner">
+                        <div class="education-icon-wrapper">
+                            <div class="education-icon-bg"></div>
+                            <i class="fas fa-graduation-cap education-icon"></i>
+                        </div>
+                        <div class="education-date-badge">2022 - Present</div>
+                        <h3 class="education-title">BSc. in Computer Science and Engineering</h3>
+                        <h4 class="education-institution">United International University</h4>
+                        <p class="education-description">
+                            Currently pursuing undergraduate degree with a strong focus on computer science fundamentals, 
+                            problem-solving, and practical application. Active in coding competitions on LeetCode and Codeforces. 
+                            Clear understanding of Data Structures, Algorithms, Machine Learning, and Neural Networks.
+                        </p>
+                        <div class="education-decoration">
+                            <div class="decoration-line"></div>
+                            <div class="decoration-dot"></div>
+                        </div>
+                    </div>
+                    <div class="education-glow"></div>
+                </div>
+                <div class="education-card edu-card-2">
+                    <div class="education-card-inner">
+                        <div class="education-icon-wrapper">
+                            <div class="education-icon-bg"></div>
+                            <i class="fas fa-book-open education-icon"></i>
+                        </div>
+                        <div class="education-date-badge">2018 - 2020</div>
+                        <h3 class="education-title">Higher Secondary School Certificate (HSC)</h3>
+                        <h4 class="education-institution">Pirganj Govt. College | GPA: 5.00</h4>
+                        <p class="education-description">
+                            Completed higher secondary education with outstanding academic performance, achieving perfect GPA.
+                        </p>
+                        <div class="education-decoration">
+                            <div class="decoration-line"></div>
+                            <div class="decoration-dot"></div>
+                        </div>
+                    </div>
+                    <div class="education-glow"></div>
+                </div>
+                <div class="education-card edu-card-3">
+                    <div class="education-card-inner">
+                        <div class="education-icon-wrapper">
+                            <div class="education-icon-bg"></div>
+                            <i class="fas fa-school education-icon"></i>
+                        </div>
+                        <div class="education-date-badge">2017 - 2018</div>
+                        <h3 class="education-title">Secondary School Certificate (SSC)</h3>
+                        <h4 class="education-institution">Pirganj Pilot High School | GPA: 5.00</h4>
+                        <p class="education-description">
+                            Completed secondary education with perfect GPA, establishing a strong foundation for higher studies.
+                        </p>
+                        <div class="education-decoration">
+                            <div class="decoration-line"></div>
+                            <div class="decoration-dot"></div>
+                        </div>
+                    </div>
+                    <div class="education-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title reveal">Skills & Technologies</h2>
+            <p class="section-subtitle reveal">Technologies I work with</p>
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3 class="skill-name">Python</h3>
+                    <p class="skill-level">Advanced</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3 class="skill-name">Java</h3>
+                    <p class="skill-level">Advanced</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="skill-name">C / C++</h3>
+                    <p class="skill-level">Advanced</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3 class="skill-name">HTML5</h3>
+                    <p class="skill-level">Advanced</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3 class="skill-name">CSS3</h3>
+                    <p class="skill-level">Advanced</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3 class="skill-name">JavaScript</h3>
+                    <p class="skill-level">Advanced</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fab fa-php"></i>
+                    </div>
+                    <h3 class="skill-name">PHP</h3>
+                    <p class="skill-level">Proficient</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="skill-name">MySQL</h3>
+                    <p class="skill-level">Proficient</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3 class="skill-name">Data Structures</h3>
+                    <p class="skill-level">Advanced</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="skill-name">Algorithms</h3>
+                    <p class="skill-level">Advanced</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="skill-name">Machine Learning</h3>
+                    <p class="skill-level">Proficient</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="skill-name">Neural Networks</h3>
+                    <p class="skill-level">Proficient</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title reveal">Featured Projects</h2>
+            <p class="section-subtitle reveal">Some of my recent work</p>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be dynamically loaded from JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <h2 class="section-title reveal">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Feb 2025 - June 2025</span>
+                        <h3 class="timeline-title">Project Lead - AI-Powered Healthcare System (MediAI)</h3>
+                        <h4 class="timeline-company">MIE 1.0 Robolution 2025, CUET</h4>
+                        <p class="timeline-description">
+                            Led the development of MediAI, an AI-powered precision healthcare and hospital management system 
+                            integrating CNN-based image disease detection and text-based disease risk prediction. Managed 
+                            end-to-end system design including role-based authentication, patient risk analytics, medication 
+                            reminders, and hospital inventory management. Successfully showcased the project and achieved 
+                            <strong>3rd place</strong> at the competition, demonstrating innovation in AI-driven healthcare solutions.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jan 2024 - May 2024</span>
+                        <h3 class="timeline-title">Project Lead - Electronics Project</h3>
+                        <h4 class="timeline-company">Autonomous Trash Collector</h4>
+                        <p class="timeline-description">
+                            Led a team of 5 students to develop an "Autonomous Trash Collector" project which aims to address 
+                            critical environmental challenges by automating waste collection. Enhanced team productivity and 
+                            project management by implementing the Arduino code and Autodesk (Fusion 360) for designing a 3D 
+                            module Robotic Arm.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022 - Present</span>
+                        <h3 class="timeline-title">Peer Tutoring</h3>
+                        <h4 class="timeline-company">Computer Science Courses</h4>
+                        <p class="timeline-description">
+                            Provided tutoring support in introductory and intermediate computer science courses, helping students 
+                            grasp complex concepts. Assisted students with debugging code and refining their programming techniques, 
+                            which enhanced their practical understanding and academic performance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title reveal">Get In Touch</h2>
+            <p class="section-subtitle reveal">Let's work together on your next project</p>
+            <div class="contact-content">
+                <div class="contact-info reveal">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>marnab222263@bscse.uiu.ac.bd</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+8801402038323</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Pirganj, Thakurgaon, Bangladesh</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://github.com/mubasshirarnab" target="_blank" class="contact-social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mubasshir-ahmed-arnab-636228247/" target="_blank" class="contact-social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form reveal" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-loading" style="display: none;">
+                            <i class="fas fa-spinner fa-spin"></i> Sending...
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notification Toast -->
+    <div class="notification-toast" id="notification-toast">
+        <div class="toast-content">
+            <i class="toast-icon"></i>
+            <span class="toast-message"></span>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">MA</span>
+                </div>
+                <p class="footer-text">© 2024 Mubasshir Ahmed Arnab. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/mubasshirarnab" target="_blank" class="footer-social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mubasshir-ahmed-arnab-636228247/" target="_blank" class="footer-social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Resume Modal -->
+    <div class="resume-modal" id="resume-modal">
+        <div class="resume-modal-overlay"></div>
+        <div class="resume-modal-content">
+            <div class="resume-modal-header">
+                <h2 class="resume-modal-title">Resume</h2>
+                <div class="resume-modal-actions">
+                    <button class="resume-download-btn" id="resume-download-btn">
+                        <i class="fas fa-download"></i> Download
+                    </button>
+                    <button class="resume-close-btn" id="resume-close-btn" aria-label="Close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="resume-viewer">
+                <iframe src="Resume.pdf" type="application/pdf" class="resume-iframe"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
